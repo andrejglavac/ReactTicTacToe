@@ -93,7 +93,7 @@ export default function Game() {
     }
     return (
       <li key={move + Math.random()}>
-        <buton onClick={() => jumpTo(move)}>{description}</buton>
+        <button onClick={() => jumpTo(move)}>{description}</button>
       </li>
     );
   });
