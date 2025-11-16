@@ -101,6 +101,7 @@ export default function Game() {
   return (
     <div>
       <div className="game">
+        <h1>Testin auto deployment!</h1>
         <Board squares={currentSquares} xIsNext={xIsNext} onPlay={handlePlay} />
       </div>
       <div className="game-info"></div>
